@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Inicio</title>
+<link href="estilos-inicio.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+    <div class="estructura">
+        <header>
+            <img class="logo" src="imagenes/logotipo.png" width="500" height="60" alt="logotipo">
+        </header>
+        <div class="titulo2">
+            <h1      style="background-color:rgb(224, 223, 223);">Infraestructura</h1>
+        </div>
+        <div class="iconos">
+            <div class="titulo1">
+                <h1 style="background-color:rgb(234, 231, 231);">Bloque de Aulas</h1>
+            </div>
+
+            <!-- Espacio considerable entre el nuevo contenedor y el titulo1 -->
+            <div style="height: 50px;"></div>
+
+            <div class="contenedor">
+                <div class="div-formulario">
+                    <h2 class ="letras" style="color: black; font-size: 25px;">Datos Informativos</h2>
+
+                    <form action="#" id="formulario">
+                        <input type="text" id="nombres" placeholder="Número de Edificio">
+                        <input type="text" id="apellidos" placeholder="Número de Piso">
+                        <input type="text" id="cedula" placeholder="Número de Aula">
+                        <input type="text" id="aula" placeholder="Número de Proyectores">
+                        <input type="text" id="mesas" placeholder="Número de Mesas">
+                        <input type="text" id="sillas" placeholder="Número de Sillas">
+                        <button type="submit" id="btnAgregar">Agregar</button>
+                    </form>
+                </div>
+
+                <div class="div-listado">
+                    <h2 style=" font-size: 25px;">Almacenamiento Datos</h2>
+                    <div class="div-estudiantes">
+                        <!-- Aquí se mostrarán los equipos filtrados por la búsqueda -->
+                    </div>
+                </div>
+            </div>
+                        <!-- Botones de conexion de paginas-->
+
+                        <a href="inicioeddy.html">Sala docentes</a>
+                        <a href="index.html">Inicio</a>
+
+                      
+                        
+            <script src="./app.js"></script>
+        </div>
+
+        <footer>
+            <p>© 2020 MARIANITASLOJA</p>
+            <p>Calle Olmedo 205-32, y Rocafuerte, frente al coliseo Bernardo Valdivieso</p>
+            <p>(07) 2724-430 - (07) 2724-329</p>
+        </footer>
+    </div>
+</body>
+</html>

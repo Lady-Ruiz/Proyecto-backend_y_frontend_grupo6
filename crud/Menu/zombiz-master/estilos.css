@@ -1,0 +1,172 @@
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", serif;
+	font-size: 12px;
+	background: url(imagenes/fsaondo.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;}
+
+/* Estilos del nuevo contenedor y barra de búsqueda */
+.titulo1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+}
+
+.letras {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+.titulo2 {
+    text-align: center;
+    margin-bottom: -40px;
+    padding-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.nuevo-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.busqueda {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#buscarEquipo {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#btnBuscar {
+    padding: 5px 10px;
+}
+
+/* Estilos del formulario y listado */
+.contenedor {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor .titulo1 {
+    width: 55%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color: rgb(166, 13, 13);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contenedor .div-formulario {
+    width: 40%;
+    height: 500px;
+    margin: 15px 15px;
+    background-color: rgb(208, 233, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(255, 255, 255, 0.3);
+}
+
+.contenedor .div-formulario h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor .div-formulario form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button {
+    width: 70%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.contenedor .div-listado {
+    width: 55%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color: rgb(135, 132, 132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contenedor .div-listado h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: rgb(245, 245, 245);
+}
+
+.contenedor .div-listado .div-estudiantes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+
+.contenedor .div-listado .div-estudiantes p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-editar {
+    background-color: green;
+}
+
+.btn-eliminar {
+    background-color: red;
+}
